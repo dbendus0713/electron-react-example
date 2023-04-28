@@ -1,0 +1,22 @@
+{
+  "item" : [ 
+    {
+      "fromOrgId" : "aa",
+      "targetOrgId" : "bb",
+      "uReqUserId" : "admin",
+      "fromName":"팀a",
+      "targetName":"팀b",
+      "cnt":"6",
+      "rst":"R"
+    },
+    {
+      "fromOrgId" : "cc",
+      "targetOrgId" : "dd",
+      "uReqUserId" : "admin",
+      "fromName":"팀c",
+      "targetName":"팀d",
+      "cnt":"1237",
+      "rst":"R"
+    }
+  ]
+}

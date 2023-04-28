@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import './index.css'; 
+import TransList from './views/TransList.js';
 import reportWebVitals from './reportWebVitals';
+// const {ipcRenderer, dialog, remote} = window.require('electron'); 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+ 
+
 root.render(
   <React.StrictMode>
-    <App />
+    <TransList />
   </React.StrictMode>
 );
 
